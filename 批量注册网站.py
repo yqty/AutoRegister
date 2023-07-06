@@ -23,7 +23,7 @@ def generate_password(length):
 # 注册网站账号
 def register_account(driver, username, password):
     # 注册地址
-    register_url = "https://www.aisoftworks.com/account/register"
+    register_url = "https://xxx.register"
 
     # 打开注册页面
     driver.get(register_url)
